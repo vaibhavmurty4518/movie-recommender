@@ -1,0 +1,11 @@
+# Ignore the large generated model files
+*.pkl
+
+# Ignore the raw datasets
+*.csv
+
+# Ignore Python cache and virtual environments
+__pycache__/
+venv/
+env/
+.env
