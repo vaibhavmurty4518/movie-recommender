@@ -1,15 +1,15 @@
-# 🎬 Netflix-Style Movie Recommender
+#  Netflix-Style Movie Recommender
 
 A content-based movie recommendation system featuring a beautiful, dark-themed UI built with **Streamlit**. This application recommends movies based on similarity in genres, keywords, cast, and crew. It also fetches real-time movie posters, ratings, YouTube trailers, and streaming platform (OTT) availability using the TMDB API.
 
-## ✨ Features
+##  Features
 * **Machine Learning Powered:** Uses scikit-learn's `CountVectorizer` and `cosine_similarity` to find the closest movie matches.
 * **Rich Metadata:** Integrates with the TMDB API to display dynamic posters, user ratings, and where to stream the movie.
 * **Netflix-Style UI:** Custom CSS with glass-morphism effects, a dark gradient background, and hover animations.
 * **Favorites System:** Save movies you want to watch later to a dedicated sidebar list.
 * **Trending Section:** Discover what's hot right now with a constantly refreshing trending movies section.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Python
 * **Data Processing:** Pandas, NumPy, Ast
 * **Machine Learning:** Scikit-Learn (Natural Language Processing)
@@ -18,7 +18,7 @@ A content-based movie recommendation system featuring a beautiful, dark-themed U
 
 ---
 
-## 🚀 How to Run this Project Locally
+##  How to Run this Project Locally
 
 **Note:** To keep this repository lightweight and fast, the raw datasets (`.csv`) and generated machine learning models (`.pkl` > 170MB) are *not* included on GitHub. You will need to download the data and generate the models locally by following these steps:
 
@@ -46,7 +46,7 @@ Now that you have the dataset, run the main.py script to clean the data, calcula
 
 Bash
 python main.py
-Wait for the terminal to print: ✅ DONE: Files created successfully!
+Wait for the terminal to print:  DONE: Files created successfully!
 (You should now see movie_dict.pkl and similarity.pkl in your folder).
 
 5. Run the Application
@@ -56,6 +56,6 @@ Bash
 streamlit run app.py
 The application will automatically open in your default web browser!
 
-🔑 API Configuration (Optional)
+ API Configuration (Optional)
 This project uses a TMDB API key to fetch movie posters and trailers. A default key is included in app.py, but if you plan to deploy this or use it heavily, it is highly recommended to get your own free API key from The Movie Database (TMDB) and replace the API_KEY variable in app.py.
 
