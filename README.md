@@ -32,7 +32,7 @@ Make sure you have Python installed. Then, install the required libraries:
 
 Bash
 pip install pandas numpy scikit-learn streamlit requests
-3. Download the Training Dataset
+3. Download the Training Dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 To train the model, you need the original dataset.
 
 Go to Kaggle and download the TMDB 5000 Movie Dataset.
