@@ -20,7 +20,7 @@ A content-based movie recommendation system featuring a beautiful, dark-themed U
 
 ## 🚀 How to Run this Project Locally
 
-**Note:** To keep this repository lightweight and fast, the raw datasets (`.csv`) and generated machine learning models (`.pkl` > 170MB) are *not* included. You will need to generate them locally by following these steps:
+**Note:** To keep this repository lightweight and fast, the raw datasets (`.csv`) and generated machine learning models (`.pkl` > 170MB) are *not* included on GitHub. You will need to download the data and generate the models locally by following these steps:
 
 ### 1. Clone the Repository
 Open your terminal and run:
@@ -32,15 +32,17 @@ Make sure you have Python installed. Then, install the required libraries:
 
 Bash
 pip install pandas numpy scikit-learn streamlit requests
-3. Download the Datasets
+3. Download the Training Dataset
+To train the model, you need the original dataset.
+
 Go to Kaggle and download the TMDB 5000 Movie Dataset.
 
-Extract the archive.
+Extract the downloaded archive.
 
-Place movies.csv and credits.csv directly into the root folder of this project.
+Place the two files, movies.csv and credits.csv, directly into the root folder of this project.
 
 4. Train the Model (Generate .pkl files)
-Run the main.py script to clean the data, calculate cosine similarities, and generate the necessary model files:
+Now that you have the dataset, run the main.py script to clean the data, calculate cosine similarities, and generate the necessary machine learning model files:
 
 Bash
 python main.py
